@@ -1,0 +1,252 @@
+{
+        "biomes":[
+				{
+					"conditions":"biome.name == 'TerraFirmaCraft Plains'",
+					"_comment": "TFC Plains",
+					"sounds": [
+						{
+							"sound": "dsurround:forest",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isDay"
+						},
+						{
+							"sound": "dsurround:crickets",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isNight"
+						}
+					]
+				}
+        ],
+        "blocks":[
+        ],
+        "items": {
+        "SHIELD": [
+                "net.dries007.tfc.objects.items.metal.ItemMetalShield"
+        ],
+        "LEATHER": [
+                
+        ],
+        "CHAIN": [
+                
+        ],
+        "CRYSTAL": [
+                "net.dries007.tfc.objects.items.ItemGem"
+        ],
+        "PLATE": [
+                "net.dries007.tfc.objects.items.metal.ItemMetalArmor"
+        ],
+        "AXE": [
+                "tfc:metal/axe/bismuth_bronze",
+				"tfc:metal/axe/black_bronze",
+				"tfc:metal/axe/bronze",
+				"tfc:metal/axe/copper",
+				"tfc:metal/axe/wrought_iron",
+				"tfc:metal/axe/steel",
+				"tfc:metal/axe/black_steel",
+				"tfc:metal/axe/red_steel",
+				"tfc:metal/axe/blue_steel",
+				"tfc:metal/axe/mithril",
+				"tfc:metal/axe/invar",
+				"tfc:metal/axe/aluminium",
+				"tfc:metal/axe/cobalt",
+				"tfc:metal/axe/manyullyn",
+				"tfc:metal/axe/osmium",
+				"tfc:metal/axe/titanium",
+				"tfc:metal/axe/tungsten",
+				"tfc:metal/axe/tungsten_steel",
+				"net.dries007.tfc.objects.items.rock.ItemRockAxe",
+				
+				"tfc:metal/pick/bismuth_bronze",
+				"tfc:metal/pick/black_bronze",
+				"tfc:metal/pick/bronze",
+				"tfc:metal/pick/copper",
+				"tfc:metal/pick/wrought_iron",
+				"tfc:metal/pick/steel",
+				"tfc:metal/pick/black_steel",
+				"tfc:metal/pick/red_steel",
+				"tfc:metal/pick/blue_steel",
+				"tfc:metal/pick/mithril",
+				"tfc:metal/pick/invar",
+				"tfc:metal/pick/aluminium",
+				"tfc:metal/pick/cobalt",
+				"tfc:metal/pick/manyullyn",
+				"tfc:metal/pick/osmium",
+				"tfc:metal/pick/titanium",
+				"tfc:metal/pick/tungsten",
+				"tfc:metal/pick/tungsten_steel",
+				
+				"tfc:metal/hammer/bismuth_bronze",
+				"tfc:metal/hammer/black_bronze",
+				"tfc:metal/hammer/bronze",
+				"tfc:metal/hammer/copper",
+				"tfc:metal/hammer/wrought_iron",
+				"tfc:metal/hammer/steel",
+				"tfc:metal/hammer/black_steel",
+				"tfc:metal/hammer/red_steel",
+				"tfc:metal/hammer/blue_steel",
+				"tfc:metal/hammer/mithril",
+				"tfc:metal/hammer/invar",
+				"tfc:metal/hammer/aluminium",
+				"tfc:metal/hammer/cobalt",
+				"tfc:metal/hammer/manyullyn",
+				"tfc:metal/hammer/osmium",
+				"tfc:metal/hammer/titanium",
+				"tfc:metal/hammer/tungsten",
+				"tfc:metal/hammer/tungsten_steel",
+				"net.dries007.tfc.objects.items.rock.ItemRockHammer"
+        ],
+        "BOW": [
+                
+        ],
+        "SWORD": [
+				"net.dries007.tfc.objects.items.metal.ItemMetalJavelin",
+		
+				"tfc:metal/sword/bismuth_bronze",
+				"tfc:metal/sword/black_bronze",
+				"tfc:metal/sword/bronze",
+				"tfc:metal/sword/copper",
+				"tfc:metal/sword/wrought_iron",
+				"tfc:metal/sword/steel",
+				"tfc:metal/sword/black_steel",
+				"tfc:metal/sword/red_steel",
+				"tfc:metal/sword/blue_steel",
+				"tfc:metal/sword/mithril",
+				"tfc:metal/sword/invar",
+				"tfc:metal/sword/aluminium",
+				"tfc:metal/sword/cobalt",
+				"tfc:metal/sword/manyullyn",
+				"tfc:metal/sword/osmium",
+				"tfc:metal/sword/titanium",
+				"tfc:metal/sword/tungsten",
+				"tfc:metal/sword/tungsten_steel",
+				
+				"tfc:metal/knife/bismuth_bronze",
+				"tfc:metal/knife/black_bronze",
+				"tfc:metal/knife/bronze",
+				"tfc:metal/knife/copper",
+				"tfc:metal/knife/wrought_iron",
+				"tfc:metal/knife/steel",
+				"tfc:metal/knife/black_steel",
+				"tfc:metal/knife/red_steel",
+				"tfc:metal/knife/blue_steel",
+				"tfc:metal/knife/mithril",
+				"tfc:metal/knife/invar",
+				"tfc:metal/knife/aluminium",
+				"tfc:metal/knife/cobalt",
+				"tfc:metal/knife/manyullyn",
+				"tfc:metal/knife/osmium",
+				"tfc:metal/knife/titanium",
+				"tfc:metal/knife/tungsten",
+				"tfc:metal/knife/tungsten_steel",
+				
+				"tfc:metal/scythe/bismuth_bronze",
+				"tfc:metal/scythe/black_bronze",
+				"tfc:metal/scythe/bronze",
+				"tfc:metal/scythe/copper",
+				"tfc:metal/scythe/wrought_iron",
+				"tfc:metal/scythe/steel",
+				"tfc:metal/scythe/black_steel",
+				"tfc:metal/scythe/red_steel",
+				"tfc:metal/scythe/blue_steel",
+				"tfc:metal/scythe/mithril",
+				"tfc:metal/scythe/invar",
+				"tfc:metal/scythe/aluminium",
+				"tfc:metal/scythe/cobalt",
+				"tfc:metal/scythe/manyullyn",
+				"tfc:metal/scythe/osmium",
+				"tfc:metal/scythe/titanium",
+				"tfc:metal/scythe/tungsten",
+				"tfc:metal/scythe/tungsten_steel"
+        ],
+        "TOOL": [
+                "net.dries007.tfc.objects.items.metal.ItemProspectorPick",
+				"net.dries007.tfc.objects.items.metal.ItemMetalShears",
+				"net.dries007.tfc.objects.items.metal.ItemMetalHoe",
+				"net.dries007.tfc.objects.items.rock.ItemRockHoe",	
+				"net.dries007.tfc.objects.items.rock.ItemRockJavelin",
+				"net.dries007.tfc.objects.items.rock.ItemRockKnife",
+				
+				"tfc:metal/saw/bismuth_bronze",
+				"tfc:metal/saw/black_bronze",
+				"tfc:metal/saw/bronze",
+				"tfc:metal/saw/copper",
+				"tfc:metal/saw/wrought_iron",
+				"tfc:metal/saw/steel",
+				"tfc:metal/saw/black_steel",
+				"tfc:metal/saw/red_steel",
+				"tfc:metal/saw/blue_steel",
+				"tfc:metal/saw/mithril",
+				"tfc:metal/saw/invar",
+				"tfc:metal/saw/aluminium",
+				"tfc:metal/saw/cobalt",
+				"tfc:metal/saw/manyullyn",
+				"tfc:metal/saw/osmium",
+				"tfc:metal/saw/titanium",
+				"tfc:metal/saw/tungsten",
+				"tfc:metal/saw/tungsten_steel",
+				
+				"tfc:metal/shovel/bismuth_bronze",
+				"tfc:metal/shovel/black_bronze",
+				"tfc:metal/shovel/bronze",
+				"tfc:metal/shovel/copper",
+				"tfc:metal/shovel/wrought_iron",
+				"tfc:metal/shovel/steel",
+				"tfc:metal/shovel/black_steel",
+				"tfc:metal/shovel/red_steel",
+				"tfc:metal/shovel/blue_steel",
+				"tfc:metal/shovel/mithril",
+				"tfc:metal/shovel/invar",
+				"tfc:metal/shovel/aluminium",
+				"tfc:metal/shovel/cobalt",
+				"tfc:metal/shovel/manyullyn",
+				"tfc:metal/shovel/osmium",
+				"tfc:metal/shovel/titanium",
+				"tfc:metal/shovel/tungsten",
+				"tfc:metal/shovel/tungsten_steel",
+				"net.dries007.tfc.objects.item.ItemRockShovel",
+				
+				"tfc:metal/chisel/bismuth_bronze",
+				"tfc:metal/chisel/black_bronze",
+				"tfc:metal/chisel/bronze",
+				"tfc:metal/chisel/copper",
+				"tfc:metal/chisel/wrought_iron",
+				"tfc:metal/chisel/steel",
+				"tfc:metal/chisel/black_steel",
+				"tfc:metal/chisel/red_steel",
+				"tfc:metal/chisel/blue_steel",
+				"tfc:metal/chisel/mithril",
+				"tfc:metal/chisel/invar",
+				"tfc:metal/chisel/aluminium",
+				"tfc:metal/chisel/cobalt",
+				"tfc:metal/chisel/manyullyn",
+				"tfc:metal/chisel/osmium",
+				"tfc:metal/chisel/titanium",
+				"tfc:metal/chisel/tungsten",
+				"tfc:metal/chisel/tungsten_steel"
+        ],
+        "FOOD": [
+                "net.dries007.tfc.objects.items.food.ItemFoodTFC"
+        ],
+        "BOOK": [
+                "net.minecraft.item.ItemBook"
+        ]
+        },
+        "dimensions":[
+                {
+                        "dimId": 0,
+                        "seaLevel": 143,
+						"cloudHeight": 286,
+						"skyHeight": 320
+                }
+        ],
+        "acoustics": {
+        },
+        "primitiveAcoustics": {
+        },
+        "footsteps":{
+        },
+        "forgeMappings":[
+        ],
+        "variators": {
+        },
+        "entities": {
+        }
+}
