@@ -13,6 +13,62 @@
 							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isNight"
 						}
 					]
+				},
+				{
+					"conditions":"biome.name == 'TerraFirmaCraft Rolling Hills'",
+					"_comment": "TFC Plains",
+					"sounds": [
+						{
+							"sound": "dsurround:forest",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isDay"
+						},
+						{
+							"sound": "dsurround:crickets",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isNight"
+						}
+					]
+				},
+				{
+					"conditions":"biome.name == 'TerraFirmaCraft High Hills'",
+					"_comment": "TFC Plains",
+					"sounds": [
+						{
+							"sound": "dsurround:forest",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isDay"
+						},
+						{
+							"sound": "dsurround:crickets",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isNight"
+						}
+					]
+				},
+				{
+					"conditions":"biome.name == 'TerraFirmaCraft High Hills Edge'",
+					"_comment": "TFC Plains",
+					"sounds": [
+						{
+							"sound": "dsurround:forest",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isDay"
+						},
+						{
+							"sound": "dsurround:crickets",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isNight"
+						}
+					]
+				},
+				{
+					"conditions":"biome.name == 'TerraFirmaCraft Mountains Edge'",
+					"_comment": "TFC Plains",
+					"sounds": [
+						{
+							"sound": "dsurround:forest",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isDay"
+						},
+						{
+							"sound": "dsurround:crickets",
+							"conditions": "weather.isNotRaining && !weather.canWaterFreeze && diurnal.isNight"
+						}
+					]
 				}
         ],
         "blocks":[

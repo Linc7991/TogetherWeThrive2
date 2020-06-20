@@ -36,4 +36,12 @@ mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:38
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:39>);
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:40>);
 
-
+//Add Iron and gold block recipes
+recipes.addShaped("IronBlock", <minecraft:iron_block>,
+	[[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],
+	 [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],
+	 [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]);
+recipes.addShaped("GoldBlock", <minecraft:gold_block>,
+	[[<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+	 [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+	 [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>]]);

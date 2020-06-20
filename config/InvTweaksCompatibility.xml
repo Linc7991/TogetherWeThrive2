@@ -1,0 +1,6 @@
+<root>
+   <chest class="net.dries007.tfc.objects.container.ContainerChestTFC" row_size="9" large_chest="false"/>
+   <chest class="net.dries007.tfc.objects.container.HorseInventoryTFC" row_size="5" large_chest="false"/>   <!-- Chests to show the sorting modes buttons on -->
+   <chest class="net.dries007.tfc.objects.container.ContainerSmallVessel" row_size="2" large_chest="false"/>
+   <chest class="net.dries007.tfc.objects.container.ContainerLargeVessel" row_size="3" large_chest="false"/>
+</root>

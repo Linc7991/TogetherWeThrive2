@@ -1,0 +1,1 @@
+mods.rustic.CrushingTub.addRecipe(<liquid:oliveoil> * 125, null, <tfc:food/olive> * 1);
