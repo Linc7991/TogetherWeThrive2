@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"fridge_side": "cookingforblockheads:blocks/fridge_side",
+		"particle": "cookingforblockheads:blocks/fridge_side"
+	},
+	"elements": [
+		{
+			"name": "Door_Main",
+			"from": [1, 0, 2],
+			"to": [15, 15, 3],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 16], "texture": "#fridge_side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [1, 1, 2, 16], "texture": "#fridge_side", "tintindex": 0},
+				"south": {"uv": [1, 1, 15, 16], "texture": "#fridge_side", "tintindex": 0},
+				"west": {"uv": [1, 1, 2, 16], "texture": "#fridge_side", "tintindex": 0},
+				"up": {"uv": [1, 1, 15, 2], "rotation": 180, "texture": "#fridge_side", "tintindex": 0},
+				"down": {"uv": [1, 1, 15, 2], "rotation": 180, "texture": "#fridge_side", "cullface": "down", "tintindex": 0}
+			}
+		}
+	]
+}

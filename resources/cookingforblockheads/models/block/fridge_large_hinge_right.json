@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"fridge_top": "cookingforblockheads:blocks/fridge_top"
+	},
+	"elements": [
+		{
+			"name": "HingeRight_Bottom",
+			"from": [1.25, 0.25, 2.75],
+			"to": [2.25, 1.25, 4],
+			"faces": {
+				"north": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"},
+				"east": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"},
+				"west": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"},
+				"up": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"},
+				"down": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"}
+			}
+		},
+		{
+			"name": "HingeRight_Top",
+			"from": [1.25, 27.75, 2.8125],
+			"to": [2.25, 28.75, 4.0625],
+			"faces": {
+				"north": {"uv": [14, 1, 15, 3], "texture": "#fridge_top", "cullface": "up"},
+				"east": {"uv": [14, 1, 15, 3], "texture": "#fridge_top", "cullface": "up"},
+				"west": {"uv": [14, 1, 15, 3], "texture": "#fridge_top", "cullface": "up"},
+				"up": {"uv": [14, 1, 15, 3], "texture": "#fridge_top", "cullface": "up"},
+				"down": {"uv": [14, 1, 15, 3], "texture": "#fridge_top", "cullface": "up"}
+			}
+		}
+	]
+}

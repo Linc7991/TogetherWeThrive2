@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"fridge_side": "cookingforblockheads:blocks/fridge_side",
+		"particle": "cookingforblockheads:blocks/fridge_side"
+	},
+	"elements": [
+		{
+			"name": "Box11",
+			"from": [11, 25, 3.5],
+			"to": [13, 25.5, 12.5],
+			"faces": {
+				"north": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"east": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"south": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"west": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"up": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"down": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"}
+			}
+		},
+		{
+			"name": "Box11",
+			"from": [11, 25.5, 3.5],
+			"to": [13, 26, 4],
+			"faces": {
+				"north": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"east": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"south": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"west": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"up": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"}
+			}
+		},
+		{
+			"name": "Box11",
+			"from": [11, 25.5, 4],
+			"to": [11.5, 26, 12.5],
+			"faces": {
+				"east": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"south": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"west": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"},
+				"up": {"uv": [1, 1, 4, 4.5], "texture": "#fridge_side"}
+			}
+		}
+	]
+}

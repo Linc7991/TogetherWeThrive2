@@ -1,0 +1,102 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"fridge_side": "cookingforblockheads:blocks/fridge_side",
+		"particle": "cookingforblockheads:blocks/fridge_side",
+		"fridge_top": "cookingforblockheads:blocks/fridge_top",
+		"fridge_inside": "cookingforblockheads:blocks/fridge_inside"
+	},
+	"elements": [
+		{
+			"name": "Door_Main",
+			"from": [5.5, 0, 2],
+			"to": [10.5, 4, 3],
+			"faces": {
+				"north": {"uv": [6, 12, 11, 16], "texture": "#fridge_side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [14, 12, 15, 16], "texture": "#fridge_side", "tintindex": 0},
+				"south": {"uv": [6, 12, 11, 16], "texture": "#fridge_side", "tintindex": 0},
+				"west": {"uv": [1, 12, 2, 16], "texture": "#fridge_side", "tintindex": 0},
+				"up": {"uv": [5, 1, 8, 2], "texture": "#fridge_side", "tintindex": 0},
+				"down": {"uv": [6, 13, 11, 14], "texture": "#fridge_side", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Door_Main",
+			"from": [1, 0, 2],
+			"to": [5.5, 15, 3],
+			"faces": {
+				"north": {"uv": [6, 1, 11, 16], "texture": "#fridge_side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [14, 1, 15, 16], "texture": "#fridge_side", "tintindex": 0},
+				"south": {"uv": [2, 1, 7, 16], "texture": "#fridge_side", "tintindex": 0},
+				"west": {"uv": [1, 1, 2, 16], "texture": "#fridge_side", "tintindex": 0},
+				"up": {"uv": [2, 1, 7, 2], "texture": "#fridge_side", "tintindex": 0},
+				"down": {"uv": [2, 13, 7, 14], "texture": "#fridge_side", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Door_Main",
+			"from": [10.5, 0, 2],
+			"to": [15, 15, 3],
+			"faces": {
+				"north": {"uv": [2, 1, 7, 16], "texture": "#fridge_side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [14, 1, 15, 16], "texture": "#fridge_side", "tintindex": 0},
+				"south": {"uv": [6, 1, 11, 16], "texture": "#fridge_side", "tintindex": 0},
+				"west": {"uv": [1, 1, 2, 16], "texture": "#fridge_side", "tintindex": 0},
+				"up": {"uv": [10, 12, 15, 13], "rotation": 180, "texture": "#fridge_side", "tintindex": 0},
+				"down": {"uv": [6, 14, 11, 15], "texture": "#fridge_side", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Door_Main",
+			"from": [5.5, 10, 2],
+			"to": [10.5, 15, 3],
+			"faces": {
+				"north": {"uv": [6, 1, 11, 6], "texture": "#fridge_side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [14, 1, 15, 6], "texture": "#fridge_side", "tintindex": 0},
+				"south": {"uv": [6, 1, 11, 6], "texture": "#fridge_side", "tintindex": 0},
+				"west": {"uv": [1, 1, 2, 6], "texture": "#fridge_side", "tintindex": 0},
+				"up": {"uv": [6, 1, 11, 2], "rotation": 180, "texture": "#fridge_side", "tintindex": 0},
+				"down": {"uv": [5, 14, 8, 15], "texture": "#fridge_side", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "IceRight",
+			"from": [7, 9, 2.5],
+			"to": [7.5, 10, 3],
+			"faces": {
+				"north": {"uv": [5, 1.5, 8, 2.5], "texture": "#fridge_top", "cullface": "north"},
+				"east": {"uv": [9, 1.5, 10, 2.5], "texture": "#fridge_top"},
+				"south": {"uv": [6, 1.5, 9, 2.5], "texture": "#fridge_top"},
+				"west": {"uv": [5, 1.5, 6, 2.5], "texture": "#fridge_top"},
+				"up": {"uv": [3, 1, 7, 3], "texture": "#fridge_top"},
+				"down": {"uv": [3, 1, 7, 3], "texture": "#fridge_top", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Door_Main",
+			"from": [5.5, 4, 3],
+			"to": [10.5, 10, 4],
+			"faces": {
+				"north": {"uv": [5.5, 4.5, 10.5, 10.5], "texture": "#fridge_inside", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [13, 6, 14, 12], "texture": "#fridge_side", "tintindex": 0},
+				"south": {"uv": [6, 6, 11, 12], "texture": "#fridge_side", "tintindex": 0},
+				"west": {"uv": [2, 6, 3, 12], "texture": "#fridge_side", "tintindex": 0},
+				"up": {"uv": [6, 2, 11, 3], "texture": "#fridge_side", "tintindex": 0},
+				"down": {"uv": [6, 13, 11, 14], "texture": "#fridge_side", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "IceLeft",
+			"from": [8.5, 9, 2.5],
+			"to": [9, 10, 3],
+			"faces": {
+				"north": {"uv": [5, 1.5, 8, 2.5], "texture": "#fridge_top", "cullface": "north"},
+				"east": {"uv": [9, 1.5, 10, 2.5], "texture": "#fridge_top"},
+				"south": {"uv": [6, 1.5, 9, 2.5], "texture": "#fridge_top"},
+				"west": {"uv": [5, 1.5, 6, 2.5], "texture": "#fridge_top"},
+				"up": {"uv": [3, 1, 7, 3], "texture": "#fridge_top"},
+				"down": {"uv": [3, 1, 7, 3], "texture": "#fridge_top", "cullface": "down"}
+			}
+		}
+	]
+}

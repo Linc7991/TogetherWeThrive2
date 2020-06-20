@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"fridge_top": "cookingforblockheads:blocks/fridge_top"
+	},
+	"elements": [
+		{
+			"name": "HingeLeft_Bottom",
+			"from": [13.75, 0.25, 1.75],
+			"to": [14.75, 1.25, 3],
+			"faces": {
+				"north": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"},
+				"east": {"uv": [1, 1, 2.25, 2], "texture": "#fridge_top"},
+				"west": {"uv": [1, 1, 3.25, 2], "texture": "#fridge_top"},
+				"up": {"uv": [14, 1, 15, 2.25], "texture": "#fridge_top"},
+				"down": {"uv": [14, 1, 15, 2.25], "texture": "#fridge_top"}
+			}
+		},
+		{
+			"name": "HingeLeft_Top",
+			"from": [13.75, 13.75, 1.75],
+			"to": [14.75, 14.75, 3],
+			"faces": {
+				"north": {"uv": [14, 1, 15, 3], "texture": "#fridge_top"},
+				"east": {"uv": [1, 1, 2.25, 2], "texture": "#fridge_top"},
+				"west": {"uv": [1, 1, 3.25, 2], "texture": "#fridge_top"},
+				"up": {"uv": [14, 1, 15, 2.25], "texture": "#fridge_top"},
+				"down": {"uv": [14, 1, 15, 2.25], "texture": "#fridge_top"}
+			}
+		}
+	]
+}
