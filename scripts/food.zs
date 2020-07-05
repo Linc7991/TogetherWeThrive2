@@ -1,10 +1,6 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 
-//------------------------------TOTEMIC------------------------------------
-mods.terrafirmacraft.ItemRegistry.registerFood(<totemic:buffalo_meat>, 1, 0, 1, 2, 0, 0, 0, 1.5, 0);
-mods.terrafirmacraft.ItemRegistry.registerFood(<totemic:cooked_buffalo_meat>, 1, 0, 1, 2, 0, 0, 0, 2.5, 0);
-
 
 //-----------------------BETTER ANIMALS PLUS-------------------------------
 mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:crab_meat_raw>, 0.6, 500, false);

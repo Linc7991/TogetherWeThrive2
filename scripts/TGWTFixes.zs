@@ -24,7 +24,7 @@ recipes.addShaped("minecraft_piston", <minecraft:piston>,
 [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
 recipes.addShapeless("minecraft_sticky_piston", <minecraft:sticky_piston>, [<minecraft:piston>, <minecraft:slime_ball>]);
 recipes.remove(<immersiveengineering:tool>);
-recipes.addShaped("immersiveengineering_tool", <immersiveengineering:tool>, 
+recipes.addShaped("immersiveengineeringtool", <immersiveengineering:tool>, 
 [[null, <tfc:metal/ingot/steel>, <minecraft:string>],
 [null, <immersiveengineering:material>, <tfc:metal/ingot/steel>],
 [<immersiveengineering:material>, null, null]]);
@@ -33,7 +33,7 @@ recipes.addShaped("immersiveengineering_tool", <immersiveengineering:tool>,
 [null, <minecraft:stick>, <tfc:metal/ingot/steel>],
 [<minecraft:stick>, null, null]]);
 recipes.remove(<immersiveengineering:tool:1>);
-recipes.addShaped("<immersiveengineering_tool_1>", <immersiveengineering:tool:1>, 
+recipes.addShaped("<immersiveengineeringtool_1>", <immersiveengineering:tool:1>, 
 [[<immersiveengineering:material>, <tfc:metal/ingot/steel>, null],
 [null, <immersiveengineering:material>, null]]);
 recipes.addShaped("<immersiveengineering_tool_1>", <immersiveengineering:tool:1>, 
